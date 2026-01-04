@@ -1,0 +1,9 @@
+---
+const { url, title } = Astro.props;
+---
+<style>
+    li {
+        color: green;
+    }
+</style>
+<li><a href={url}>{title}</a></li>
